@@ -47,3 +47,7 @@ export default function PropertyCard({ property, className }: any) {
     </>
   );
 }
+
+
+
+
