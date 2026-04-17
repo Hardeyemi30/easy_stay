@@ -44,7 +44,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         />
       </div>
 
-      <div className="flex flex-col w-full gap-2">
+      <div className="flex flex-col w-full">
         <label className="text-sm text-gray-500 mt-2">Check-out</label>
         <input
           type="date"
@@ -54,7 +54,6 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         />
       </div>
 
-      {/* BUTTON */}
       <div className="w-full md:w-auto mt-2 md:mt-5">
         <button
           onClick={handleSearch}
